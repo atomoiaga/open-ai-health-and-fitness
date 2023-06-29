@@ -1,0 +1,101 @@
+{
+  "response": {
+    "id": "chatcmpl-7EXDvjpIQFxlaqFlQW9QUs1GKSFVY",
+    "object": "chat.completion",
+    "created": 1683698659,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 297,
+      "completion_tokens": 343,
+      "total_tokens": 640
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Based on your profile, here is your customized fitness plan for the next week:\n\n<start>\n\nMonday - Session #1\nWarm-up: 5 minutes of light stretching\nExercises and intervals: \n- Cycling (10 min)\n- Endurance (10 min)\nCooldown: 5 minutes of slow walking\nEstimated workout time: 25 minutes\n\nTuesday - Session #2\nWarm-up: 5 minutes of jumping jacks\nExercises and intervals: \n- Endurance (10 min)\n- Cycling (10 min)\nCooldown: 5 minutes of slow walking\nEstimated workout time: 25 minutes\n\nWednesday - Session #3\nRest day, focus on healthy eating and hydration\n\nThursday - Session #4\nWarm-up: 5 minutes of light stretching\nExercises and intervals: \n- Cycling (15 min)\n- Endurance (15 min)\nCooldown: 5 minutes of slow walking\nEstimated workout time: 35 minutes\n\nFriday - Session #5\nWarm-up: 5 minutes of jumping jacks\nExercises and intervals: \n- Endurance (15 min)\n- Cycling (15 min)\nCooldown: 5 minutes of slow walking\nEstimated workout time: 35 minutes\n\nSaturday - Session #6\nRest day, focus on healthy eating and hydration\n\nSunday - Session #7\nWarm-up: 5 minutes of light stretching\nExercises and intervals: \n- Cycling (20 min)\n- Endurance (20 min)\nCooldown: 5 minutes of slow walking\nEstimated workout time: 45 minutes\n\n<stop>\n\nRemember to listen to your body and adjust accordingly. Stay hydrated and focus on healthy eating habits to support your fitness journey. Good luck!"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating fitness coach. Help me to create a fitness plan for me based on the profile I provide. Please be concise and use simple language, if the I provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word. "
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized fitness plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is female, I weight 82 and I am 168 tall, I am 7 years old, I usually sleep around 6-8h hours per night Here are my goals: Stop smoking, Live longer and healthier. Here is my workout duration: 10m - 30m. Here is my workout complexity: medium. Here is my workout frequency: monthly. I want my fitness plan to include the following exercises: Endurance, Cycling. Please consider that I have the following injuries: .\") Please consider that I have the following ilness/es: true Please consider that I have the following respiratory condition: Asthma Please consider that I have the following pain/s: Asthma \nPlease create me a fitness plan for the next week using the following structure:\n<start>\n\n\nDay Name - Session #number\nWarm-up:\nExercises and intervals: exercise name (intervals)\nCooldown:\nEstimated workout time:\n\n\n<stop>"
+    }
+  ],
+  "userData": {
+    "weight": 82,
+    "height": 168,
+    "dateOfBirth": "3-12-2016",
+    "sex": "female",
+    "goals": [
+      "Stop smoking",
+      "Live longer and healthier"
+    ],
+    "plans": [
+      "fitness",
+      "diet"
+    ],
+    "mealPreparationTime": [
+      "hard"
+    ],
+    "totalCalories": [
+      "1500-2000 kcal"
+    ],
+    "mealComplexity": [
+      "medium"
+    ],
+    "numberOfMeals": [
+      "3"
+    ],
+    "workoutDuration": [
+      "10m - 30m"
+    ],
+    "workoutComplexity": [
+      "medium"
+    ],
+    "workoutFrequency": [
+      "monthly"
+    ],
+    "sleep": [
+      "6-8h"
+    ],
+    "exerciseFrequency": [
+      "3 - 4 times per week"
+    ],
+    "diet": [
+      "Keto"
+    ],
+    "allergies": [
+      "Peanut allergy",
+      "Soy allergy"
+    ],
+    "fitnessExercises": [
+      "Endurance",
+      "Cycling"
+    ],
+    "illness": true,
+    "illnessDetails": [
+      "Diabetes"
+    ],
+    "chronicIllness": [],
+    "injuries": [],
+    "respiratoryConditions": [
+      "Asthma"
+    ],
+    "pain": [
+      "Chronic or frequent mild pain or discomfort"
+    ]
+  }
+}

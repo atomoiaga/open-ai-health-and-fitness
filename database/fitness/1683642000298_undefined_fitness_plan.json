@@ -1,0 +1,102 @@
+{
+  "response": {
+    "id": "chatcmpl-7EITOa0Dns9eNMvpO3zNaD9954DBv",
+    "object": "chat.completion",
+    "created": 1683641958,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 311,
+      "completion_tokens": 612,
+      "total_tokens": 923
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Based on the information provided, here's a customized one-week fitness plan for you:\n\n\n<start>\n\nDay 1 - Session #1\nWarm-up: 5-10 minutes of stretching\nExercises and intervals: \n1. Bodyweight squats (3 sets x 10 reps)\n2. Push-ups (3 sets x 10 reps)\n3. Mountaineering (3 sets x 30 seconds each)\nCooldown: 5-10 minutes of stretching \nEstimated workout time: 30-40 minutes\n\nDay 2 - Session #2\nWarm-up: 5-10 minutes of jumping jacks \nExercises and intervals: \n1. Bodyweight lunges (3 sets x 10 reps each leg)\n2. Plank (3 sets x 30 seconds each)\n3. Bodyweight Rows (3 sets x 10 reps)\nCooldown: 5-10 minutes of stretching \nEstimated workout time: 30-40 minutes \n\nDay 3 - Session #3\nWarm-up: 5-10 minutes of jogging in place\nExercises and intervals: \n1. Jumping Jacks (3 sets x 20 reps)\n2. Bodyweight dips (3 sets x 10 reps)\n3. Mountaineering (3 sets x 30 seconds each)\nCooldown: 5-10 minutes of stretching \nEstimated workout time: 30-40 minutes\n\nDay 4 - Session #4 \nRest day \n\nDay 5 - Session #5 \nWarm-up: 5-10 minutes of stretching \nExercises and intervals: \n1. Bodyweight squats (3 sets x 10 reps)\n2. Bicep curls using dumbbells (3 sets x 10 reps)\n3. Crunches (3 sets x 10 reps)\nCooldown: 5-10 minutes of stretching  \nEstimated workout time: 30-40 minutes \n\nDay 6 - Session #6 \nWarm-up: 5-10 minutes of jumping jacks \nExercises and intervals: \n1. Burpees (3 sets x 10 reps)\n2. Bodyweight Rows (3 sets x 8 reps)\n3. Plank (3 sets x 20 seconds each) \nCooldown: 5-10 minutes of stretching \nEstimated workout time: 30-40 minutes \n\nDay 7 - Session #7 \nWarm-up: 5-10 minutes of jogging in place \nExercises and intervals: \n1. Push-ups (3 sets x 10 reps) \n2. Bodyweight dips (3 sets x 10 reps)\n3. Jumping Jacks (3 sets x 30 seconds each)\nCooldown: 5-10 minutes of stretching \nEstimated workout time: 30-40 minutes \n\n<stop>\n\nPlease keep in mind that before starting any new exercise program it is recommended to consult with a doctor, especially when there are pre-existing neurological disorders. It's important to focus on gradual progress and listen to your body to avoid injury. Good luck with your fitness journey!"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating fitness coach. Help me to create a fitness plan for me based on the profile I provide. Please be concise and use simple language, if the I provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word. "
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized fitness plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is male, I weight 132 and I am 197 tall, I am 16 years old, I usually sleep around More than 8h hours per night Here are my goals: loose weight, Live longer and healthier. Here is my workout duration: 30m - 1h. Here is my workout complexity: medium. Here is my workout frequency: daily. I want my fitness plan to include the following exercises: Mountaineering, Body Weight Training. Please consider that I have the following injuries: .\") Please consider that I have the following ilness/es: true Please consider that I have the following chronic ilness/es: Neurological disorder (e.g., multiple sclerosis, Parkinson's) Please consider that I have the following pain/s:  \nPlease create me a fitness plan for the next week using the following structure:\n<start>\n\n\nDay Name - Session #number\nWarm-up:\nExercises and intervals: exercise name (intervals)\nCooldown:\nEstimated workout time:\n\n\n<stop>"
+    }
+  ],
+  "userData": {
+    "weight": 132,
+    "height": 197,
+    "dateOfBirth": "3-19-2007",
+    "sex": "male",
+    "goals": [
+      "loose weight",
+      "Live longer and healthier"
+    ],
+    "plans": [
+      "diet",
+      "fitness"
+    ],
+    "mealPreparationTime": [
+      "hard"
+    ],
+    "totalCalories": [
+      "More than 3000 kcal"
+    ],
+    "mealComplexity": [
+      "medium"
+    ],
+    "numberOfMeals": [
+      "3"
+    ],
+    "workoutDuration": [
+      "30m - 1h"
+    ],
+    "workoutComplexity": [
+      "medium"
+    ],
+    "workoutFrequency": [
+      "daily"
+    ],
+    "sleep": [
+      "More than 8h"
+    ],
+    "exerciseFrequency": [
+      "1 - 2 times per week"
+    ],
+    "diet": [
+      "Lactose-free",
+      "vegetarian"
+    ],
+    "allergies": [
+      "No food allergies",
+      "Tree nut allergy"
+    ],
+    "fitnessExercises": [
+      "Mountaineering",
+      "Body Weight Training"
+    ],
+    "illness": true,
+    "illnessDetails": [
+      "HIV"
+    ],
+    "chronicIllness": [
+      "Neurological disorder (e.g., multiple sclerosis, Parkinson's)"
+    ],
+    "injuries": [],
+    "respiratoryConditions": [],
+    "pain": [
+      "Occasional severe pain or discomfort"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "prompt-builder-sample",
+  "version": "1.0.0",
+  "description": "An experiment with OpenAI APIs using predefined prompts, and string interpolated prompts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yplabs-com/prompt-builder-sample.git"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "prompt"
+  ],
+  "author": "Andrei Stefan Tomoiaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yplabs-com/prompt-builder-sample/issues"
+  },
+  "homepage": "https://github.com/yplabs-com/prompt-builder-sample#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}

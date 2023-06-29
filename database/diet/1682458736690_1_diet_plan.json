@@ -1,0 +1,88 @@
+{
+  "response": {
+    "id": "chatcmpl-79Kf29M79MTHogN2ze9LpbCyXBtWK",
+    "object": "chat.completion",
+    "created": 1682458728,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 245,
+      "completion_tokens": 334,
+      "total_tokens": 579
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Great! Here's a vegetarian diet plan for you based on the information you provided:\n\n<start>\nDay 1\n\nMeal 1 - Breakfast:\nMeal name: Veggie and Cheese Omelet\nPreparation: Beat two eggs with low-fat milk and salt. Heat some oil in a pan and sauté vegetables such as spinach, onions, and bell peppers. Pour the egg mixture into the pan and cook until the egg is set. Add some shredded cheese on top and fold the omelet in half.\nProtein: 23 grams\nFat: 14 grams\nCarbs: 9 grams\nEstimated preparation time: 20 minutes\n\nMeal 2 - Lunch:\nMeal name: Vegan BLT Sandwich\nPreparation: Take a whole grain bread and spread some vegan mayo or hummus on it. Layer sliced tomatoes, lettuce, avocado, and tempeh bacon on top of the bread.\nProtein: 23 grams\nFat: 18 grams\nCarbs: 33 grams\nEstimated preparation time: 15 minutes\n\nMeal 3 - Dinner:\nMeal name: Chickpea and Vegetable Curry\nPreparation: Sauté chopped onions until translucent. Add chopped veggies such as broccoli, carrots, and bell peppers. Add chickpeas, curry powder, coconut milk, and water. Simmer for 15-20 minutes. Serve over a bed of quinoa or brown rice.\nProtein: 16 grams\nFat: 14 grams\nCarbs: 56 grams\nEstimated preparation time: 30 minutes\n\n<stop>\n\nHope you enjoy your meals! Let me know if you have any questions or concerns."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating nutritionist. Help me to create a diet plan based on my profile data. Please be concise and use simple language, if the user provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized nutrition plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is male, I weight 70 kg and I am 170 cm tall, I am 33 years old, I usually sleep around 7 - 8 hours hours per night. Here are my goals: loose weight, gain muscle. I am following a vegetarian diet. I want the meal preparation time to be around 30 min - 1 hour. I want to have an intake of about 1500 - 2000 kcal calories per day. I serve 3 meals per day. \nCreate me a diet plan for tomorrow using the following structure:\n\n<start>\nDay Name\nMeal name:\nPreparation:\nProtein:\nFat:\nCarbs:\nEstimated preparation time:\n<stop>"
+    }
+  ],
+  "userData": {
+    "id": "1",
+    "name": "John Doe",
+    "weight": "70 kg",
+    "dateOfBirth": "1990-01-01",
+    "height": "170 cm",
+    "sex": "male",
+    "lowTestosterone": "no",
+    "prostateProblems": "no",
+    "bowelAndbladderProblems": "no",
+    "goals": [
+      "loose weight",
+      "gain muscle"
+    ],
+    "plans": [
+      "diet",
+      "fitness"
+    ],
+    "mealPreparationTime": "30 min - 1 hour",
+    "totalCalories": "1500 - 2000 kcal",
+    "mealComplexity": "easy",
+    "numberOfMeals": "3",
+    "workoutDuration": "30 min - 1 hour",
+    "workoutComplexity": "easy",
+    "workoutFrequency": "daily",
+    "sleep": "7 - 8 hours",
+    "exercise": "yes",
+    "exerciseFrequency": "3 - 4 times per week",
+    "diet": "vegetarian",
+    "pregnancy": "no",
+    "perimenopause": "no",
+    "menopause": "no",
+    "menstrualCycle": null,
+    "fitnessExercises": [
+      "strength",
+      "running"
+    ],
+    "trainingForCompetitions": "no",
+    "burnout": "no",
+    "recovery": "no",
+    "illness": "no",
+    "injuries": null,
+    "respiratoryConditions": "no",
+    "pain": "no",
+    "conceiving": "no",
+    "conceivingInterval": null,
+    "lastMenstruation": null,
+    "preeclampsiaOrHighBloodPressure": null,
+    "breastFeeding": null,
+    "cesarianDelivery": null
+  }
+}

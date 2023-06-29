@@ -1,0 +1,88 @@
+{
+  "response": {
+    "id": "chatcmpl-79KpGglgWhasxckPLO4wKpOsBY2lT",
+    "object": "chat.completion",
+    "created": 1682459362,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 245,
+      "completion_tokens": 290,
+      "total_tokens": 535
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Great! Here's a sample diet plan for tomorrow, based on your goals and preferences:\n\n<start>\nMonday\n\nMeal 1: Veggie Omelette\nPreparation: Whisk 2 eggs and saute with vegetables (spinach, mushrooms, peppers). Season with salt and pepper. Serve with a small avocado.\nProtein: 22g\nFat: 28g\nCarbs: 12g\nEstimated preparation time: 20 minutes\n\nMeal 2: Chickpea Bowl\nPreparation: Drain and rinse chickpeas. Saute with garlic, turmeric, and cumin. Serve with a handful of arugula and a scoop of yogurt.\nProtein: 22g\nFat: 10g\nCarbs: 46g\nEstimated preparation time: 20 minutes\n\nMeal 3: Lentil Dal\nPreparation: Cook lentils in a pot with vegetable broth, cumin, and chili powder. Serve with basmati rice and roasted carrots.\nProtein: 20g\nFat: 6g\nCarbs: 62g\nEstimated preparation time: 30 minutes\n\n<stop>\n\nRemember to adjust the portion sizes as needed to meet your calorie goals. Also, make sure to drink plenty of water throughout the day and incorporate regular exercise into your routine to promote weight loss and muscle gain. Let me know if you have any questions or need further assistance!"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating nutritionist. Help me to create a diet plan based on my profile data. Please be concise and use simple language, if the user provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized nutrition plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is male, I weight 70 kg and I am 170 cm tall, I am 33 years old, I usually sleep around 7 - 8 hours hours per night. Here are my goals: loose weight, gain muscle. I am following a vegetarian diet. I want the meal preparation time to be around 30 min - 1 hour. I want to have an intake of about 1500 - 2000 kcal calories per day. I serve 3 meals per day. \nCreate me a diet plan for tomorrow using the following structure:\n\n<start>\nDay Name\nMeal name:\nPreparation:\nProtein:\nFat:\nCarbs:\nEstimated preparation time:\n<stop>"
+    }
+  ],
+  "userData": {
+    "id": "1",
+    "name": "John Doe",
+    "weight": "70 kg",
+    "dateOfBirth": "1990-01-01",
+    "height": "170 cm",
+    "sex": "male",
+    "lowTestosterone": "no",
+    "prostateProblems": "no",
+    "bowelAndbladderProblems": "no",
+    "goals": [
+      "loose weight",
+      "gain muscle"
+    ],
+    "plans": [
+      "diet",
+      "fitness"
+    ],
+    "mealPreparationTime": "30 min - 1 hour",
+    "totalCalories": "1500 - 2000 kcal",
+    "mealComplexity": "easy",
+    "numberOfMeals": "3",
+    "workoutDuration": "30 min - 1 hour",
+    "workoutComplexity": "easy",
+    "workoutFrequency": "daily",
+    "sleep": "7 - 8 hours",
+    "exercise": "yes",
+    "exerciseFrequency": "3 - 4 times per week",
+    "diet": "vegetarian",
+    "pregnancy": "no",
+    "perimenopause": "no",
+    "menopause": "no",
+    "menstrualCycle": null,
+    "fitnessExercises": [
+      "strength",
+      "running"
+    ],
+    "trainingForCompetitions": "no",
+    "burnout": "no",
+    "recovery": "no",
+    "illness": "no",
+    "injuries": null,
+    "respiratoryConditions": "no",
+    "pain": "no",
+    "conceiving": "no",
+    "conceivingInterval": null,
+    "lastMenstruation": null,
+    "preeclampsiaOrHighBloodPressure": null,
+    "breastFeeding": null,
+    "cesarianDelivery": null
+  }
+}

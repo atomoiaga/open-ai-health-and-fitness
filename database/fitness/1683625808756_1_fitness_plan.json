@@ -1,0 +1,103 @@
+{
+  "response": {
+    "id": "chatcmpl-7EEGC4G2IjmDddvFSIHdi1N9ur4Pj",
+    "object": "chat.completion",
+    "created": 1683625764,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 317,
+      "completion_tokens": 622,
+      "total_tokens": 939
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Sure, here's a one-week fitness plan for you:\n\n<start>\n\nDay 1 - Session #1\nWarm-up: 5-minute brisk walk\nExercises and intervals: \n- Strength training 1: Dumbbell bicep curls (3 sets of 12 reps), dumbbell squats (3 sets of 12 reps)\n- Running: Jog for 1 minute, walk for 30 seconds, repeat for 20 minutes\nCooldown: 5-minute walk\nEstimated workout time: 30 minutes\n\nDay 2 - Session #2\nWarm-up: 5-minute jog\nExercises and intervals: \n- Strength training 2: Push-ups (3 sets of 10 reps), tricep dips (3 sets of 10 reps)\n- Running: Intervals of sprinting for 30 seconds, followed by 30 seconds of walking, repeat for 15 minutes\nCooldown: 5-minute walk\nEstimated workout time: 30 minutes\n\nDay 3 - Session #3\nWarm-up: 5-minute walk\nExercises and intervals: \n- Strength training 3: Bodyweight squats (3 sets of 12 reps), lunges (3 sets of 12 reps)\n- Running: Steady jog for 25 minutes\nCooldown: 5-minute walk\nEstimated workout time: 30 minutes\n\nDay 4 - Session #4\nWarm-up: 5-minute jog \nExercises and intervals: \n- Strength training 4: Plank (3 sets, hold for 30 seconds each), Russian twists (3 sets of 12 reps)\n- Running: Intervals of sprinting for 20 seconds, followed by 40 seconds of jogging, repeat for 15 minutes\nCooldown: 5-minute walk\nEstimated workout time: 30 minutes\n\nDay 5 - Session #5\nWarm-up: 5-minute walk\nExercises and intervals: \n- Strength training 5: Lat pulldowns (3 sets of 12 reps), dumbbell shoulder press (3 sets of 12 reps)\n- Running: Steady jog for 30 minutes\nCooldown: 5-minute walk\nEstimated workout time: 45 minutes\n\nDay 6 - Session #6\nWarm-up: 5-minute jog \nExercises and intervals: \n- Strength training 6: Plank rows (3 sets of 12 reps on each side), glute bridges (3 sets of 12 reps)\n- Running: Intervals of sprinting for 30 seconds, followed by 1 minute of walking, repeat for 15 minutes\nCooldown: 5-minute walk\nEstimated workout time: 30 minutes\n\nDay 7 - Session #7\nRest day\n\n<stop>\n\nPlease ensure that you choose weights that are challenging but manageable, and listen to your body - if any exercise causes pain or discomfort, stop doing it immediately. Additionally, always consult a healthcare provider before starting any new exercise program, especially if you have any medical conditions or injuries. Way to go on taking a step towards a healthier you!"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating fitness coach. Help me to create a fitness plan for me based on the profile I provide. Please be concise and use simple language, if the I provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word. "
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized fitness plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is male, I weight 70 kg and I am 170 cm tall, I am 33 years old, I usually sleep around 7 - 8 hours hours per night Here are my goals: loose weight, gain muscle. Here is my workout duration: 30 min - 1 hour. Here is my workout complexity: easy. Here is my workout frequency: daily. I want my fitness plan to include the following exercises: strength, running. Please consider that I have the following injuries: ligament, bone.\") Please consider that I have the following ilness/es: true Please consider that I have the following chronic ilness/es: depression Please consider that I have the following respiratory condition: sleep apneea Please consider that I have the following pain/s: sleep apneea \nPlease create me a fitness plan for the next week using the following structure:\n<start>\n\n\nDay Name - Session #number\nWarm-up:\nExercises and intervals: exercise name (intervals)\nCooldown:\nEstimated workout time:\n\n\n<stop>"
+    }
+  ],
+  "userData": {
+    "id": "1",
+    "name": "John Doe",
+    "weight": "70 kg",
+    "dateOfBirth": "1990-01-01",
+    "height": "170 cm",
+    "sex": "male",
+    "lowTestosterone": false,
+    "prostateProblems": false,
+    "bowelAndbladderProblems": false,
+    "goals": [
+      "loose weight",
+      "gain muscle"
+    ],
+    "plans": [
+      "diet",
+      "fitness"
+    ],
+    "mealPreparationTime": "30 min - 1 hour",
+    "totalCalories": "1500 - 2000 kcal",
+    "mealComplexity": "easy",
+    "numberOfMeals": "3",
+    "workoutDuration": "30 min - 1 hour",
+    "workoutComplexity": "easy",
+    "workoutFrequency": "daily",
+    "sleep": "7 - 8 hours",
+    "exercise": true,
+    "exerciseFrequency": "3 - 4 times per week",
+    "diet": "vegetarian",
+    "allergies": [
+      "peanut allergy",
+      "shellfish allergy"
+    ],
+    "pregnancy": false,
+    "perimenopause": false,
+    "menopause": false,
+    "menstrualCycle": null,
+    "fitnessExercises": [
+      "strength",
+      "running"
+    ],
+    "trainingForCompetitions": false,
+    "burnout": false,
+    "recovery": false,
+    "illness": true,
+    "illnessDetails": "HIV",
+    "chronicIllness": [
+      "depression"
+    ],
+    "injuries": [
+      "ligament",
+      "bone"
+    ],
+    "respiratoryConditions": [
+      "sleep apneea"
+    ],
+    "pain": [
+      "ocassional mild pain or discomfort"
+    ],
+    "conceiving": false,
+    "conceivingInterval": null,
+    "lastMenstruation": null,
+    "preeclampsiaOrHighBloodPressure": null,
+    "breastFeeding": null,
+    "cesarianDelivery": null
+  }
+}

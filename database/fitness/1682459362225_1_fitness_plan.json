@@ -1,0 +1,88 @@
+{
+  "response": {
+    "id": "chatcmpl-79Kp143UWBLXsjcz55Tq8Y6KX147M",
+    "object": "chat.completion",
+    "created": 1682459347,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 250,
+      "completion_tokens": 585,
+      "total_tokens": 835
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Great! Here's your customized fitness plan for the next week based on your goals and preferences:\n\n<start>\n\nDay 1 - Session #1 \nWarm-up: 5-minute jog or jump rope\nExercises and intervals: Bodyweight squats (3 sets of 10 reps), Push-ups (3 sets of 10 reps), Lunges (3 sets of 10 reps each leg), Plank (3 sets of 30 seconds each)\nCooldown: 5-minute stretching\nEstimated workout time: 30 minutes\n\nDay 2 - Session #2\nWarm-up: 5-minute jog, Jumping jacks (2 sets of 30 reps)\nExercises and intervals: Interval running: 1 minute of sprinting followed by 1 minute of jogging (5 sets in total)\nCooldown: 5-minute walk and stretching\nEstimated workout time: 30 minutes\n\nDay 3 - Session #3\nWarm-up: 5-minute jog, Leg swings (2 sets of 10 reps)\nExercises and intervals: Dumbbell bench press (3 sets of 10 reps), Bicep curls (3 sets of 10 reps), Tricep extensions (3 sets of 10 reps), Leg curls (3 sets of 10 reps)\nCooldown: 5-minute stretching\nEstimated workout time: 40 minutes\n\nDay 4 - Session #4\nWarm-up: 5-minute jog, Jumping jacks (2 sets of 30 reps)\nExercises and intervals: Interval running: 1 minute of sprinting followed by 1 minute of jogging (5 sets in total)\nCooldown: 5-minute walk and stretching\nEstimated workout time: 30 minutes\n\nDay 5 - Session #5\nWarm-up: 5-minute jog or jump rope\nExercises and intervals: Bulgarian split squats (3 sets of 10 reps each leg), Pull-ups (3 sets of 10 reps), Dumbbell rows (3 sets of 10 reps), Plank with shoulder taps (3 sets of 30 seconds each)\nCooldown: 5-minute stretching\nEstimated workout time: 45 minutes\n\nDay 6 - Session #6\nWarm-up: 5-minute jog, Leg swings (2 sets of 10 reps)\nExercises and intervals: Dumbbell bent-over rows (3 sets of 10 reps), Dumbbell shoulder press (3 sets of 10 reps), Lateral raises (3 sets of 10 reps), Overhead tricep extensions (3 sets of 10 reps)\nCooldown: 5-minute stretching\nEstimated workout time: 40 minutes\n\nDay 7 - Rest day\n\n<stop>\n\nRemember to stay hydrated throughout your workouts and listen to your body. Adjust the weights and reps as needed and don't hesitate to add some variety to your exercises. Consistency is key, so aim to stick to your schedule!"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating fitness coach. Help me to create a fitness plan for me based on the profile I provide. Please be concise and use simple language, if the I provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word. "
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized fitness plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is male, I weight 70 kg and I am 170 cm tall, I am 33 years old, I usually sleep around 7 - 8 hours hours per night Here are my goals: loose weight, gain muscle. Here is my workout duration: 30 min - 1 hour. Here is my workout complexity: easy. Here is my workout frequency: daily. I want my fitness plan to include the following exercises: strength, running.  \nPlease create me a fitness plan for the next week using the following structure:\n<start>\nDay Name - Session #number\nWarm-up:\nExercises and intervals: exercise name (intervals)\nCooldown:\nEstimated workout time:\n<stop>"
+    }
+  ],
+  "userData": {
+    "id": "1",
+    "name": "John Doe",
+    "weight": "70 kg",
+    "dateOfBirth": "1990-01-01",
+    "height": "170 cm",
+    "sex": "male",
+    "lowTestosterone": "no",
+    "prostateProblems": "no",
+    "bowelAndbladderProblems": "no",
+    "goals": [
+      "loose weight",
+      "gain muscle"
+    ],
+    "plans": [
+      "diet",
+      "fitness"
+    ],
+    "mealPreparationTime": "30 min - 1 hour",
+    "totalCalories": "1500 - 2000 kcal",
+    "mealComplexity": "easy",
+    "numberOfMeals": "3",
+    "workoutDuration": "30 min - 1 hour",
+    "workoutComplexity": "easy",
+    "workoutFrequency": "daily",
+    "sleep": "7 - 8 hours",
+    "exercise": "yes",
+    "exerciseFrequency": "3 - 4 times per week",
+    "diet": "vegetarian",
+    "pregnancy": "no",
+    "perimenopause": "no",
+    "menopause": "no",
+    "menstrualCycle": null,
+    "fitnessExercises": [
+      "strength",
+      "running"
+    ],
+    "trainingForCompetitions": "no",
+    "burnout": "no",
+    "recovery": "no",
+    "illness": "no",
+    "injuries": null,
+    "respiratoryConditions": "no",
+    "pain": "no",
+    "conceiving": "no",
+    "conceivingInterval": null,
+    "lastMenstruation": null,
+    "preeclampsiaOrHighBloodPressure": null,
+    "breastFeeding": null,
+    "cesarianDelivery": null
+  }
+}

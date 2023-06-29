@@ -1,0 +1,99 @@
+{
+  "response": {
+    "id": "chatcmpl-7EXM9db6VuWinF2StkO2CJ9fTmjmL",
+    "object": "chat.completion",
+    "created": 1683699169,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 284,
+      "completion_tokens": 502,
+      "total_tokens": 786
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Based on the information you provided, here is a customized fitness plan for you:\n\n<start>\n\nDay 1 - Session #1\nWarm-up: 5-10 minutes of jogging in place\nExercises and intervals: Swimming (4 x 50m lap intervals with 30 second rest in between)\nCooldown: 5-10 minutes of easy swimming\nEstimated workout time: 45 minutes\n\nDay 2 - Session #2\nWarm-up: 5-10 minutes of static stretching\nExercises and intervals: Military Training (3 x 10 push-ups, 3 x 10 sit-ups, 3 x 10 squats with 30 second rest in between sets)\nCooldown: 5-10 minutes of walking\nEstimated workout time: 30-45 minutes\n\nDay 3 - Rest Day\n\nDay 4 - Session #3\nWarm-up: 5-10 minutes of jumping jacks\nExercises and intervals: Swimming (4 x 25m lap intervals with 15 second rest in between) and Military Training (2 x 5 push-ups, 2 x 5 sit-ups, 2 x 5 squats with 30 second rest in between sets)\nCooldown: 5-10 minutes of easy swimming\nEstimated workout time: 45-60 minutes\n\nDay 5 - Session #4\nWarm-up: 5-10 minutes of walking\nExercises and intervals: Military Training (3 x 10 push-ups, 3 x 10 sit-ups, 3 x 10 squats with 30 second rest in between sets)\nCooldown: 5-10 minutes of stretching\nEstimated workout time: 30-45 minutes\n\nDay 6 - Rest Day\n\nDay 7 - Session #5\nWarm-up: 5-10 minutes of dynamic stretching\nExercises and intervals: Swimming (4 x 25m lap intervals with 15 second rest in between) and Military Training (2 x 5 push-ups, 2 x 5 sit-ups, 2 x 5 squats with 30 second rest in between sets)\nCooldown: 5-10 minutes of easy swimming\nEstimated workout time: 45-60 minutes\n\n<stop>\n\nMake sure to drink water before, during, and after workouts to stay hydrated. Also, listen to your body and take breaks if you experience any pain. Keep track of your progress and adjust your plan as needed to meet your goals. Good luck!"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating fitness coach. Help me to create a fitness plan for me based on the profile I provide. Please be concise and use simple language, if the I provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word. "
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized fitness plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is male, I weight 133 and I am 161 tall, I am 11 years old, I usually sleep around More than 8h hours per night Here are my goals: loose weight, Hydrate more. Here is my workout duration: 1h - 2h. Here is my workout complexity: medium. Here is my workout frequency: monthly. I want my fitness plan to include the following exercises: Swimming, Millitary Training. Please consider that I have the following injuries: .\") Please consider that I have the following ilness/es: true Please consider that I have the following pain/s:  \nPlease create me a fitness plan for the next week using the following structure:\n<start>\n\n\nDay Name - Session #number\nWarm-up:\nExercises and intervals: exercise name (intervals)\nCooldown:\nEstimated workout time:\n\n\n<stop>"
+    }
+  ],
+  "userData": {
+    "weight": 133,
+    "height": 161,
+    "dateOfBirth": "9-7-2011",
+    "sex": "male",
+    "goals": [
+      "loose weight",
+      "Hydrate more"
+    ],
+    "plans": [
+      "fitness",
+      "diet"
+    ],
+    "mealPreparationTime": [
+      "easy"
+    ],
+    "totalCalories": [
+      "2000-3000 kcal"
+    ],
+    "mealComplexity": [
+      "hard"
+    ],
+    "numberOfMeals": [
+      "3"
+    ],
+    "workoutDuration": [
+      "1h - 2h"
+    ],
+    "workoutComplexity": [
+      "medium"
+    ],
+    "workoutFrequency": [
+      "monthly"
+    ],
+    "sleep": [
+      "More than 8h"
+    ],
+    "exerciseFrequency": [
+      "5 or more per week"
+    ],
+    "diet": [
+      "Halal"
+    ],
+    "allergies": [
+      "Soy allergy",
+      "Wheat allergy"
+    ],
+    "fitnessExercises": [
+      "Swimming",
+      "Millitary Training"
+    ],
+    "illness": true,
+    "illnessDetails": [
+      "HIV"
+    ],
+    "chronicIllness": [],
+    "injuries": [],
+    "respiratoryConditions": [],
+    "pain": [
+      "Chronic or frequent severe pain or discomfort"
+    ]
+  }
+}

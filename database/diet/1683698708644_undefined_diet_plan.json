@@ -1,0 +1,101 @@
+{
+  "response": {
+    "id": "chatcmpl-7EXEJJrN0QtuReqjgCPs9p7SqxZFm",
+    "object": "chat.completion",
+    "created": 1683698683,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 253,
+      "completion_tokens": 379,
+      "total_tokens": 632
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Based on your profile data and goals, here's a sample meal plan for you:\n\n<start>\n\nMeal #1\nMeal name: Scrambled Eggs with Avocado\nPreparation: Crack 2 eggs into a bowl and whisk with a fork. Add some salt and pepper to taste. Heat a non-stick pan over medium heat and add some butter. Pour in the egg mixture and cook, stirring occasionally, until set. Slice half an avocado and serve on the side.\nProtein: 12g \nFat: 35g \nCarbs: 8g \nEstimated preparation time: 10 mins\n\nMeal #2\nMeal name: Grilled Chicken Salad\nPreparation: Season a chicken breast with salt, pepper, and your favorite spices. Grill or bake until cooked through. Slice and add to a large bowl of mixed greens. Top with cherry tomatoes, sliced cucumbers, and your favorite salad dressing.\nProtein: 30g \nFat: 10g \nCarbs: 10g \nEstimated preparation time: 20 mins\n\nMeal #3\nMeal name: Baked Salmon with Roasted Vegetables\nPreparation: Preheat the oven to 400°F. Place a salmon fillet on a baking sheet lined with parchment paper. Brush with olive oil and sprinkle with salt, pepper, and dried dill. Toss a mix of your favorite vegetables in olive oil, salt, and pepper. Add them to the baking sheet around the salmon. Roast for 15-20 minutes, until the salmon is cooked through and the vegetables are tender.\nProtein: 25g \nFat: 20g \nCarbs: 15g \nEstimated preparation time: 30 mins\n\n<stop>\n\nNote: Please make sure to consult a doctor before starting any specific diet plan, especially if you have any allergies or health conditions."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "chatHistory": [
+    {
+      "role": "system",
+      "content": "Act as a helpful and motivating nutritionist. Help me to create a diet plan based on my profile data. Please be concise and use simple language, if the user provides a structured way of displaying information please respect use only that structure and no more words. Your first reply is \"Hi\", one word."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! I'd be happy to help you create a customized nutrition plan. Can you provide me some information about yourself?"
+    },
+    {
+      "role": "user",
+      "content": "My sex is female, I weight 82 and I am 168 tall, I am 7 years old, I usually sleep around 6-8h hours per night. Here are my goals: Stop smoking, Live longer and healthier. I am following a Keto diet. I want the meal preparation time to be around hard. I want to have an intake of about 1500-2000 kcal calories per day. I serve 3 meals per day. Please consider that I have the following allergy/s: Peanut allergy, Soy allergy \nCreate me a diet plan for tomorrow using the following structure:\n\n<start>\n\n\nMeal #number\nMeal name:\nPreparation:\nProtein:\nFat:\nCarbs:\nEstimated preparation time:\n\n\n<stop>"
+    }
+  ],
+  "userData": {
+    "weight": 82,
+    "height": 168,
+    "dateOfBirth": "3-12-2016",
+    "sex": "female",
+    "goals": [
+      "Stop smoking",
+      "Live longer and healthier"
+    ],
+    "plans": [
+      "fitness",
+      "diet"
+    ],
+    "mealPreparationTime": [
+      "hard"
+    ],
+    "totalCalories": [
+      "1500-2000 kcal"
+    ],
+    "mealComplexity": [
+      "medium"
+    ],
+    "numberOfMeals": [
+      "3"
+    ],
+    "workoutDuration": [
+      "10m - 30m"
+    ],
+    "workoutComplexity": [
+      "medium"
+    ],
+    "workoutFrequency": [
+      "monthly"
+    ],
+    "sleep": [
+      "6-8h"
+    ],
+    "exerciseFrequency": [
+      "3 - 4 times per week"
+    ],
+    "diet": [
+      "Keto"
+    ],
+    "allergies": [
+      "Peanut allergy",
+      "Soy allergy"
+    ],
+    "fitnessExercises": [
+      "Endurance",
+      "Cycling"
+    ],
+    "illness": true,
+    "illnessDetails": [
+      "Diabetes"
+    ],
+    "chronicIllness": [],
+    "injuries": [],
+    "respiratoryConditions": [
+      "Asthma"
+    ],
+    "pain": [
+      "Chronic or frequent mild pain or discomfort"
+    ]
+  }
+}
