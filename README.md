@@ -1,6 +1,6 @@
 # prompt-builder-sample
 
-An experiment with OpenAI APIs using predefined prompts, and string interpolated prompts, this repository will serve as a prototype for the end solution for the YPL Buddy app.
+An experiment with OpenAI APIs using predefined prompts, and string interpolated prompts, this repository will serve as a prototype for the end solution for a health app.
 
 ### 💡 Hint
 
